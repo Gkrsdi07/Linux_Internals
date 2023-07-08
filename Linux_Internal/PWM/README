@@ -1,0 +1,27 @@
+ 
+1. Set the cross compilation setup.
+ 
+ . /opt/poky-tiny/2.5.2/environment-setup-cortexa5hf-neon-poky-linux-musleabi
+
+2. Compile the Application
+
+   ${CC} pwm.c  -o pwm
+   
+5. Execute
+   
+   ./pwm 100  1
+
+  NOTE: 
+     1. pwm -  Executable file 
+     2. 100 -  No of periods
+     3. 1   -  No of duty cycles.
+
+   Result:
+          brightness of Led will be seen as increasing order.
+
+
+
+
+
+
+

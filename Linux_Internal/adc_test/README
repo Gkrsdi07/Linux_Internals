@@ -1,0 +1,24 @@
+
+ 
+1. Set the cross compilation setup.
+ 
+ . /opt/poky-tiny/2.5.2/environment-setup-cortexa5hf-neon-poky-linux-musleabi
+
+2. Compile the Application
+
+   ${CC} adc_test.c adc.c adc.h -o adc_test
+   
+3. Execute
+
+   ./adc_test 6 
+
+     NOTE:      adc_test - Executable file
+                6        - ADC channel
+
+     Result : As ADC device's value gets change, output can be seen on Terminal.
+
+
+
+
+
+
